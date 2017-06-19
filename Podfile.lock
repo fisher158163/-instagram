@@ -1,0 +1,12 @@
+PODS:
+  - Pastel (0.3.0)
+
+DEPENDENCIES:
+  - Pastel
+
+SPEC CHECKSUMS:
+  Pastel: 738740c84f2b15bbcd96ebe99c4e6c2f5dd42262
+
+PODFILE CHECKSUM: ca12b602b14cd7af8046ae4bcb8e02e35e3af0ae
+
+COCOAPODS: 1.2.1

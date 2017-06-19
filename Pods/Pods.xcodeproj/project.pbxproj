@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43773E201140A524FDB26584221C66E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		50772E6811FD7562782526D9D0164077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		60D14D7327EC4AABA3E6A23905021440 /* Pods-仿instagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FEE1FD9493C65BE967A4C35A07A186 /* Pods-仿instagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B993D4CA3A8E898E5F6A749F1453D44 /* Pods-仿instagramUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD07384732C9AE7B479069F3803BF3CB /* Pods-仿instagramUITests-dummy.m */; };
+		72DC14E956F45F642E3207BDA5E5E478 /* PastelGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EBC655D45F8500590724375FC56F15 /* PastelGradient.swift */; };
+		8B5005A1D807F4C83FA35B01FD767BDB /* Pods-仿instagramTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D8C5B0618C04F804CCFE5AFCA59AEC /* Pods-仿instagramTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DDB652BD776E1974E877C38F4684F96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9A33E10A287267FBCE36C76B2323AB22 /* Pods-仿instagramTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9CACB16BA381352DDFB262A4C56542 /* Pods-仿instagramTests-dummy.m */; };
+		A065C41ED17D833D31D3313164F8FCFC /* Pods-仿instagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CDDDFF867A2764FDD9015109F3A8D8 /* Pods-仿instagram-dummy.m */; };
+		AB1A50C5CA9F8E2C44BC46AB127F5730 /* Pods-仿instagramUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D35A1A2D8DA69B86BCD235330F1F1B /* Pods-仿instagramUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3876E92B5D48CFC1C10A10AE2B3E812 /* PastelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9323B12B49B11D84C897027EF38DEA /* PastelView.swift */; };
+		E03F419287F929DF0C7FCE665F0E96EA /* Pastel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DD6178169115AAA784DA3B80B4E7E3 /* Pastel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4268869183317C5E39F79399AB6EFFB /* Pastel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B9582883A63FB959B0D5EE8A215E2D /* Pastel-dummy.m */; };
+		FFD7EC2E785ED7B99BA0071E5C16F575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2EBC17DC0E30E249D8ED231FBC62F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D092BF86FB8C0ABE055E421219B71;
+			remoteInfo = Pastel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E8AE96FF446AD299C0BD37A1399C3D /* Pods-仿instagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagram-frameworks.sh"; sourceTree = "<group>"; };
+		0EA6F3BD4894030789C8442107ACFCC1 /* Pastel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-prefix.pch"; sourceTree = "<group>"; };
+		16B9582883A63FB959B0D5EE8A215E2D /* Pastel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pastel-dummy.m"; sourceTree = "<group>"; };
+		26EDE8D23446448C1057985C8C9A4650 /* Pods-仿instagramTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-仿instagramTests.modulemap"; sourceTree = "<group>"; };
+		289F71FD36C4DF899393000CD684F6D6 /* Pods-仿instagramUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagramUITests-frameworks.sh"; sourceTree = "<group>"; };
+		309A98C7AF8441BBD4C18C6A43066C75 /* Pastel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pastel.xcconfig; sourceTree = "<group>"; };
+		35BE14DE02A29AC646603765E77E78B8 /* Pods-仿instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagram.release.xcconfig"; sourceTree = "<group>"; };
+		37395580667FF81E3B939288585D54DF /* Pods-仿instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagram.debug.xcconfig"; sourceTree = "<group>"; };
+		49FEE1FD9493C65BE967A4C35A07A186 /* Pods-仿instagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-仿instagram-umbrella.h"; sourceTree = "<group>"; };
+		51DD6178169115AAA784DA3B80B4E7E3 /* Pastel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pastel-umbrella.h"; sourceTree = "<group>"; };
+		52338D832078A1B4AF816EE0CD523F59 /* Pods-仿instagramTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagramTests-frameworks.sh"; sourceTree = "<group>"; };
+		56925CE7AD1DAB19C2803105D725184D /* Pods-仿instagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-仿instagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59CDDDFF867A2764FDD9015109F3A8D8 /* Pods-仿instagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-仿instagram-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68608104BD8AC55579E5B84B49FB9998 /* Pastel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pastel.framework; path = Pastel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69834EAFD0B910AA57C8EAC68203C75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7B1511F1979FCFD669ED848659413B /* Pods-仿instagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		74B3F575D27F5F51DA2B1BA040ED9DB5 /* Pastel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Pastel.modulemap; sourceTree = "<group>"; };
+		7AAA29207CE05B5CEDE7EB7ED5151639 /* Pods-仿instagramTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-仿instagramTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D9323B12B49B11D84C897027EF38DEA /* PastelView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelView.swift; path = Pastel/Classes/PastelView.swift; sourceTree = "<group>"; };
+		8433E5703D14A857F36745CB9F0187A9 /* Pods-仿instagramTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagramTests-resources.sh"; sourceTree = "<group>"; };
+		8626A44268AFD5B01D27691B868CFA5A /* Pods-仿instagram-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagram-resources.sh"; sourceTree = "<group>"; };
+		8684501594151A5FAED8CDD6867A7A04 /* Pods-仿instagramUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-仿instagramUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86C2DEA3D788356BEE7DECC1522A3A9A /* Pods-仿instagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-仿instagram.modulemap"; sourceTree = "<group>"; };
+		8879589DBFD6C1345E1B8D7A36D4CEA9 /* Pods-仿instagramUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-仿instagramUITests.modulemap"; sourceTree = "<group>"; };
+		8BAE85177A33C3AA517EFCD2D782FBB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D293AD497164D6C701353C0A286CC4B /* Pods-仿instagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-仿instagram-acknowledgements.plist"; sourceTree = "<group>"; };
+		91EBC655D45F8500590724375FC56F15 /* PastelGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PastelGradient.swift; path = Pastel/Classes/PastelGradient.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D35A1A2D8DA69B86BCD235330F1F1B /* Pods-仿instagramUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-仿instagramUITests-umbrella.h"; sourceTree = "<group>"; };
+		9CAC18A881D5C5486BEABF0F8EE77F81 /* Pods-仿instagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2D8C5B0618C04F804CCFE5AFCA59AEC /* Pods-仿instagramTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-仿instagramTests-umbrella.h"; sourceTree = "<group>"; };
+		A42F248DA8CC9981F73268BC39C39291 /* Pods-仿instagramUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-仿instagramUITests-resources.sh"; sourceTree = "<group>"; };
+		AA9CACB16BA381352DDFB262A4C56542 /* Pods-仿instagramTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-仿instagramTests-dummy.m"; sourceTree = "<group>"; };
+		AE25D0B0D1E38A5DD736E08E2ACAC2C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B33CCB902AB76659A0ABEC2BD10B7C70 /* Pods-仿instagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B81A244A5B70286E29DCF7921F3608D6 /* Pods__instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods__instagram.framework; path = "Pods-仿instagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB73B82E3CA015D4D6AFBC11584AA98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD07384732C9AE7B479069F3803BF3CB /* Pods-仿instagramUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-仿instagramUITests-dummy.m"; sourceTree = "<group>"; };
+		BFF5484C5048AE5A5F6598972A1A3869 /* Pods-仿instagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-仿instagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC58705B2DFBF741E40F0CF005EF8121 /* Pods__instagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods__instagramUITests.framework; path = "Pods-仿instagramUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE62E183B3FA33530A6ABF0758BD2B9 /* Pods__instagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods__instagramTests.framework; path = "Pods-仿instagramTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA25C84D1847C6AD4C7758C9B7074258 /* Pods-仿instagramTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-仿instagramTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDB9DA2574993F7A7D7450F27BD66F60 /* Pods-仿instagramUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-仿instagramUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1570D520B16D275101A99B428378F73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50772E6811FD7562782526D9D0164077 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7968D22330EEECFF4944B03601BC21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDB652BD776E1974E877C38F4684F96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71AFFA7FAAF292D8ED71AFCCC2990C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7EC2E785ED7B99BA0071E5C16F575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3B93C6823DDC5F0C9DA5431339795E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43773E201140A524FDB26584221C66E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F998F28FA434238505D331F75E1EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68608104BD8AC55579E5B84B49FB9998 /* Pastel.framework */,
+				B81A244A5B70286E29DCF7921F3608D6 /* Pods__instagram.framework */,
+				DDE62E183B3FA33530A6ABF0758BD2B9 /* Pods__instagramTests.framework */,
+				DC58705B2DFBF741E40F0CF005EF8121 /* Pods__instagramUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3197C04DB31366D09463102CB7BD26BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA918334BDBF72E98691DFF725F3BBAB /* Pods-仿instagram */,
+				A6E1985FEC2AE3E12EE1BD21E4396E2C /* Pods-仿instagramTests */,
+				98B2A35A8ED07E8371A511AE23409477 /* Pods-仿instagramUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				937D81996BF33AEBD55DE24FB866E3A3 /* Pods */,
+				17F998F28FA434238505D331F75E1EAF /* Products */,
+				3197C04DB31366D09463102CB7BD26BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		937D81996BF33AEBD55DE24FB866E3A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB77C33CD4946EFF6E246063B07B8B53 /* Pastel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98B2A35A8ED07E8371A511AE23409477 /* Pods-仿instagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69834EAFD0B910AA57C8EAC68203C75C /* Info.plist */,
+				8879589DBFD6C1345E1B8D7A36D4CEA9 /* Pods-仿instagramUITests.modulemap */,
+				FDB9DA2574993F7A7D7450F27BD66F60 /* Pods-仿instagramUITests-acknowledgements.markdown */,
+				8684501594151A5FAED8CDD6867A7A04 /* Pods-仿instagramUITests-acknowledgements.plist */,
+				BD07384732C9AE7B479069F3803BF3CB /* Pods-仿instagramUITests-dummy.m */,
+				289F71FD36C4DF899393000CD684F6D6 /* Pods-仿instagramUITests-frameworks.sh */,
+				A42F248DA8CC9981F73268BC39C39291 /* Pods-仿instagramUITests-resources.sh */,
+				95D35A1A2D8DA69B86BCD235330F1F1B /* Pods-仿instagramUITests-umbrella.h */,
+				B33CCB902AB76659A0ABEC2BD10B7C70 /* Pods-仿instagramUITests.debug.xcconfig */,
+				9CAC18A881D5C5486BEABF0F8EE77F81 /* Pods-仿instagramUITests.release.xcconfig */,
+			);
+			name = "Pods-仿instagramUITests";
+			path = "Target Support Files/Pods-仿instagramUITests";
+			sourceTree = "<group>";
+		};
+		A6E1985FEC2AE3E12EE1BD21E4396E2C /* Pods-仿instagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BAE85177A33C3AA517EFCD2D782FBB6 /* Info.plist */,
+				26EDE8D23446448C1057985C8C9A4650 /* Pods-仿instagramTests.modulemap */,
+				7AAA29207CE05B5CEDE7EB7ED5151639 /* Pods-仿instagramTests-acknowledgements.markdown */,
+				EA25C84D1847C6AD4C7758C9B7074258 /* Pods-仿instagramTests-acknowledgements.plist */,
+				AA9CACB16BA381352DDFB262A4C56542 /* Pods-仿instagramTests-dummy.m */,
+				52338D832078A1B4AF816EE0CD523F59 /* Pods-仿instagramTests-frameworks.sh */,
+				8433E5703D14A857F36745CB9F0187A9 /* Pods-仿instagramTests-resources.sh */,
+				A2D8C5B0618C04F804CCFE5AFCA59AEC /* Pods-仿instagramTests-umbrella.h */,
+				BFF5484C5048AE5A5F6598972A1A3869 /* Pods-仿instagramTests.debug.xcconfig */,
+				6E7B1511F1979FCFD669ED848659413B /* Pods-仿instagramTests.release.xcconfig */,
+			);
+			name = "Pods-仿instagramTests";
+			path = "Target Support Files/Pods-仿instagramTests";
+			sourceTree = "<group>";
+		};
+		A7C8AE23D830666692D01E92E6C1177A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE25D0B0D1E38A5DD736E08E2ACAC2C9 /* Info.plist */,
+				74B3F575D27F5F51DA2B1BA040ED9DB5 /* Pastel.modulemap */,
+				309A98C7AF8441BBD4C18C6A43066C75 /* Pastel.xcconfig */,
+				16B9582883A63FB959B0D5EE8A215E2D /* Pastel-dummy.m */,
+				0EA6F3BD4894030789C8442107ACFCC1 /* Pastel-prefix.pch */,
+				51DD6178169115AAA784DA3B80B4E7E3 /* Pastel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pastel";
+			sourceTree = "<group>";
+		};
+		AA918334BDBF72E98691DFF725F3BBAB /* Pods-仿instagram */ = {
+			isa = PBXGroup;
+			children = (
+				BCB73B82E3CA015D4D6AFBC11584AA98 /* Info.plist */,
+				86C2DEA3D788356BEE7DECC1522A3A9A /* Pods-仿instagram.modulemap */,
+				56925CE7AD1DAB19C2803105D725184D /* Pods-仿instagram-acknowledgements.markdown */,
+				8D293AD497164D6C701353C0A286CC4B /* Pods-仿instagram-acknowledgements.plist */,
+				59CDDDFF867A2764FDD9015109F3A8D8 /* Pods-仿instagram-dummy.m */,
+				06E8AE96FF446AD299C0BD37A1399C3D /* Pods-仿instagram-frameworks.sh */,
+				8626A44268AFD5B01D27691B868CFA5A /* Pods-仿instagram-resources.sh */,
+				49FEE1FD9493C65BE967A4C35A07A186 /* Pods-仿instagram-umbrella.h */,
+				37395580667FF81E3B939288585D54DF /* Pods-仿instagram.debug.xcconfig */,
+				35BE14DE02A29AC646603765E77E78B8 /* Pods-仿instagram.release.xcconfig */,
+			);
+			name = "Pods-仿instagram";
+			path = "Target Support Files/Pods-仿instagram";
+			sourceTree = "<group>";
+		};
+		BB77C33CD4946EFF6E246063B07B8B53 /* Pastel */ = {
+			isa = PBXGroup;
+			children = (
+				91EBC655D45F8500590724375FC56F15 /* PastelGradient.swift */,
+				7D9323B12B49B11D84C897027EF38DEA /* PastelView.swift */,
+				A7C8AE23D830666692D01E92E6C1177A /* Support Files */,
+			);
+			name = Pastel;
+			path = Pastel;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		292FFB0119723ED6EC1E1FC17387109C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5005A1D807F4C83FA35B01FD767BDB /* Pods-仿instagramTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A60B5084C7CB5B3D0A5465B55459558 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03F419287F929DF0C7FCE665F0E96EA /* Pastel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6134A548ABBB1480D3884D1B0D27131C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1A50C5CA9F8E2C44BC46AB127F5730 /* Pods-仿instagramUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD202622D4252D0B2CAC2D3F4B3FC568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D14D7327EC4AABA3E6A23905021440 /* Pods-仿instagram-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		453BB44301550B588FB34E3E9C5451B6 /* Pods-仿instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86AFCC05A9C594BE5E4F53F544677D0 /* Build configuration list for PBXNativeTarget "Pods-仿instagram" */;
+			buildPhases = (
+				606C76A1E1A5AC3DCF7A46BE863507BC /* Sources */,
+				1570D520B16D275101A99B428378F73E /* Frameworks */,
+				BD202622D4252D0B2CAC2D3F4B3FC568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67D1FCD47A33A89C00D948B6E86E5D3C /* PBXTargetDependency */,
+			);
+			name = "Pods-仿instagram";
+			productName = "Pods-仿instagram";
+			productReference = B81A244A5B70286E29DCF7921F3608D6 /* Pods__instagram.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E1D092BF86FB8C0ABE055E421219B71 /* Pastel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6593740037C02E9291E1477CEB6528 /* Build configuration list for PBXNativeTarget "Pastel" */;
+			buildPhases = (
+				9175DF6E5C72BC0972090DB37B76A5F9 /* Sources */,
+				D71AFFA7FAAF292D8ED71AFCCC2990C4 /* Frameworks */,
+				4A60B5084C7CB5B3D0A5465B55459558 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pastel;
+			productName = Pastel;
+			productReference = 68608104BD8AC55579E5B84B49FB9998 /* Pastel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D1D1DD498865877BC0E9CDA25EEA3C /* Pods-仿instagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3938CC0D2F9C5AC2BE06C8AD66C8A3 /* Build configuration list for PBXNativeTarget "Pods-仿instagramTests" */;
+			buildPhases = (
+				47D769B75A06EC262DA8C21E7ECB0DB4 /* Sources */,
+				FC3B93C6823DDC5F0C9DA5431339795E /* Frameworks */,
+				292FFB0119723ED6EC1E1FC17387109C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-仿instagramTests";
+			productName = "Pods-仿instagramTests";
+			productReference = DDE62E183B3FA33530A6ABF0758BD2B9 /* Pods__instagramTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9295E52BD3F241CC5EE25569438FB642 /* Pods-仿instagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F386B5648949D723590833911C62445 /* Build configuration list for PBXNativeTarget "Pods-仿instagramUITests" */;
+			buildPhases = (
+				34378A5E23E439393442CA72A5E88AF5 /* Sources */,
+				B7968D22330EEECFF4944B03601BC21C /* Frameworks */,
+				6134A548ABBB1480D3884D1B0D27131C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-仿instagramUITests";
+			productName = "Pods-仿instagramUITests";
+			productReference = DC58705B2DFBF741E40F0CF005EF8121 /* Pods__instagramUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17F998F28FA434238505D331F75E1EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1D092BF86FB8C0ABE055E421219B71 /* Pastel */,
+				453BB44301550B588FB34E3E9C5451B6 /* Pods-仿instagram */,
+				91D1D1DD498865877BC0E9CDA25EEA3C /* Pods-仿instagramTests */,
+				9295E52BD3F241CC5EE25569438FB642 /* Pods-仿instagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34378A5E23E439393442CA72A5E88AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B993D4CA3A8E898E5F6A749F1453D44 /* Pods-仿instagramUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D769B75A06EC262DA8C21E7ECB0DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A33E10A287267FBCE36C76B2323AB22 /* Pods-仿instagramTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		606C76A1E1A5AC3DCF7A46BE863507BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A065C41ED17D833D31D3313164F8FCFC /* Pods-仿instagram-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9175DF6E5C72BC0972090DB37B76A5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4268869183317C5E39F79399AB6EFFB /* Pastel-dummy.m in Sources */,
+				72DC14E956F45F642E3207BDA5E5E478 /* PastelGradient.swift in Sources */,
+				C3876E92B5D48CFC1C10A10AE2B3E812 /* PastelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67D1FCD47A33A89C00D948B6E86E5D3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pastel;
+			target = 8E1D092BF86FB8C0ABE055E421219B71 /* Pastel */;
+			targetProxy = C2EBC17DC0E30E249D8ED231FBC62F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12952724D202DF31A7375A8605BA4E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309A98C7AF8441BBD4C18C6A43066C75 /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15E6EA8B3126A7DD6862AD27F63303F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37395580667FF81E3B939288585D54DF /* Pods-仿instagram.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagram/Pods-仿instagram.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B0B48926AE9176DFC2059ADE69B3458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33CCB902AB76659A0ABEC2BD10B7C70 /* Pods-仿instagramUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagramUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagramUITests/Pods-仿instagramUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagramUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		751D692E9D92F05B4FCA7840CAF1E517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF5484C5048AE5A5F6598972A1A3869 /* Pods-仿instagramTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagramTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagramTests/Pods-仿instagramTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagramTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86A6C5B2F1998491030B7EB0DF7240B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BE14DE02A29AC646603765E77E78B8 /* Pods-仿instagram.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagram/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagram/Pods-仿instagram.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB127C4FD65CF59B732896539EF4BAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7B1511F1979FCFD669ED848659413B /* Pods-仿instagramTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagramTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagramTests/Pods-仿instagramTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagramTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE88F48405372831384623080EE67DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309A98C7AF8441BBD4C18C6A43066C75 /* Pastel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pastel/Pastel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pastel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pastel/Pastel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Pastel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDC0349698C5385CF8B21E9526A8A8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAC18A881D5C5486BEABF0F8EE77F81 /* Pods-仿instagramUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-仿instagramUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-仿instagramUITests/Pods-仿instagramUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods__instagramUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6593740037C02E9291E1477CEB6528 /* Build configuration list for PBXNativeTarget "Pastel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12952724D202DF31A7375A8605BA4E21 /* Debug */,
+				DE88F48405372831384623080EE67DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F386B5648949D723590833911C62445 /* Build configuration list for PBXNativeTarget "Pods-仿instagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B0B48926AE9176DFC2059ADE69B3458 /* Debug */,
+				EDC0349698C5385CF8B21E9526A8A8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3938CC0D2F9C5AC2BE06C8AD66C8A3 /* Build configuration list for PBXNativeTarget "Pods-仿instagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				751D692E9D92F05B4FCA7840CAF1E517 /* Debug */,
+				CB127C4FD65CF59B732896539EF4BAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86AFCC05A9C594BE5E4F53F544677D0 /* Build configuration list for PBXNativeTarget "Pods-仿instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E6EA8B3126A7DD6862AD27F63303F0 /* Debug */,
+				86A6C5B2F1998491030B7EB0DF7240B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
