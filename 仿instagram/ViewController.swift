@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButton.layer.borderColor = UIColor.white.withAlphaComponent(0.12).cgColor
+        loginButton.layer.borderColor = UIColor.white.withAlphaComponent(0.16).cgColor
         loginButton.layer.borderWidth = 1.0
-        loginButton.layer.cornerRadius = 4.0
+        loginButton.layer.cornerRadius = 10.0
         
        let pastelView = PastelView(frame: view.bounds)
         
@@ -37,7 +37,6 @@ class ViewController: UIViewController {
         
         pastelView.startAnimation()
         view.insertSubview(pastelView, at: 0)
-        
     }
 
     override func didReceiveMemoryWarning() {
