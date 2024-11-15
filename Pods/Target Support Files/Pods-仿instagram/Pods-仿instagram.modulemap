@@ -1,6 +1,0 @@
-framework module Pods__instagram {
-  umbrella header "Pods-仿instagram-umbrella.h"
-
-  export *
-  module * { export * }
-}

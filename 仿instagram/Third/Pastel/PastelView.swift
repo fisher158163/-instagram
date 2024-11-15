@@ -15,32 +15,8 @@ open class PastelView: UIView {
         static let key = "ColorChange"
     }
     
-    @objc
-    public enum PastelPoint: Int {
-        case left
-        case top
-        case right
-        case bottom
-        case topLeft
-        case topRight
-        case bottomLeft
-        case bottomRight
-        
-        var point: CGPoint {
-            switch self {
-            case .left: return CGPoint(x: 0.0, y: 0.5)
-            case .top: return CGPoint(x: 0.5, y: 0.0)
-            case .right: return CGPoint(x: 1.0, y: 0.5)
-            case .bottom: return CGPoint(x: 0.5, y: 1.0)
-            case .topLeft: return CGPoint(x: 0.0, y: 0.0)
-            case .topRight: return CGPoint(x: 1.0, y: 0.0)
-            case .bottomLeft: return CGPoint(x: 0.0, y: 1.0)
-            case .bottomRight: return CGPoint(x: 1.0, y: 1.0)
-            }
-        }
-    }
-    
-    // Custom Direction
+    //MARK: - Custom Direction
+
     open var startPoint: CGPoint = PastelPoint.topRight.point
     open var endPoint: CGPoint = PastelPoint.bottomLeft.point
     
@@ -56,7 +32,8 @@ open class PastelView: UIView {
         }
     }
     
-    // Custom Duration
+    //MARK: - Custom Duration
+
     open var animationDuration: TimeInterval = 5.0
     
     fileprivate let gradient = CAGradientLayer()
@@ -68,13 +45,6 @@ open class PastelView: UIView {
                              UIColor(red: 32/255, green: 158/255, blue: 255/255, alpha: 1.0),
                              UIColor(red: 90/255, green: 120/255, blue: 127/255, alpha: 1.0),
                              UIColor(red: 58/255, green: 255/255, blue: 217/255, alpha: 1.0)]
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -133,7 +103,7 @@ open class PastelView: UIView {
         let animation = CABasicAnimation(keyPath: Animation.keyPath)
         animation.duration = animationDuration
         animation.toValue = currentGradientSet()
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = .forwards
         animation.isRemovedOnCompletion = false
         animation.delegate = self
         gradient.add(animation, forKey: Animation.key)
